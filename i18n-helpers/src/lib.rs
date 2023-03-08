@@ -329,6 +329,7 @@ mod tests {
             r#"
 * [Brazilian Portuguese][pt-BR] and
 * [Korean][ko]
+* [Arabic][ar]
 
 [pt-BR]: https://google.github.io/comprehensive-rust/pt-BR/
 [ko]: https://google.github.io/comprehensive-rust/ko/

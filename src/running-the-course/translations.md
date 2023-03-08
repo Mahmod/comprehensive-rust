@@ -5,12 +5,14 @@ volunteers:
 
 * [Brazilian Portuguese][pt-BR] by [@rastringer] and [@hugojacob].
 * [Korean][ko] by [@keispace], [@jiyongp] and [@jooyunghan].
+* [Arabic][ko] by [@mahmod].
 
 Use the language picker in the top-right corner to switch between languages.
 
 If you want to help with this effort, please see [our instructions] for how to
 get going. Translations are coordinated on the [issue tracker].
 
+[ar]: https://google.github.io/comprehensive-rust/ar/
 [pt-BR]: https://google.github.io/comprehensive-rust/pt-BR/
 [ko]: https://google.github.io/comprehensive-rust/ko/
 [@rastringer]: https://github.com/rastringer
