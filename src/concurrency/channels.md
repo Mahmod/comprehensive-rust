@@ -5,7 +5,6 @@ are connected via the channel, but you only see the end-points.
 
 ```rust,editable
 use std::sync::mpsc;
-use std::thread;
 
 fn main() {
     let (tx, rx) = mpsc::channel();
@@ -24,9 +23,10 @@ fn main() {
 
 <details>
 
-* `mpsc` stands for Multi-Producer, Single-Consumer. `Sender` and `SyncSender` implement `Clone` (so
-  you can make multiple producers) but `Receiver` does not.
-* `send()` and `recv()` return `Result`. If they return `Err`, it means the counterpart `Sender` or
-  `Receiver` is dropped and the channel is closed.
+- `mpsc` stands for Multi-Producer, Single-Consumer. `Sender` and `SyncSender`
+  implement `Clone` (so you can make multiple producers) but `Receiver` does
+  not.
+- `send()` and `recv()` return `Result`. If they return `Err`, it means the
+  counterpart `Sender` or `Receiver` is dropped and the channel is closed.
 
 </details>
